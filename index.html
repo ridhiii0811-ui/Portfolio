@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ritisha S. | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#home">R<span>.</span></a>
+    <button class="menu" id="menu" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a>
+      <a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#hobbies">Hobbies</a>
+      <a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="theme" id="theme" aria-label="Toggle dark mode">☾</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Ritisha <span>S.</span></h1>
+        <h2>First-year B.Tech student</h2>
+        <p class="intro">Welcome to my little corner of the internet! I'm studying at Bosscoder School of Technology. I'm creative, friendly, and curious about learning how technology works.</p>
+        <a class="btn" href="#about">Get to know me <span>↗</span></a>
+      </div>
+      <div class="portrait"><div class="circle">R</div><p>learning, growing<br>and figuring things out.</p></div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">A LITTLE INTRODUCTION</p><h2>About me<span>.</span></h2>
+      <div class="panel about">
+        <div class="initial">R<span>.</span></div>
+        <div><h3>Hey, nice to meet you!</h3>
+          <p>I'm Ritisha, a first-year B.Tech student at Bosscoder School of Technology. I'd describe myself as creative and friendly. I enjoy reading books and exploring new ideas.</p>
+          <p>I'm at the beginning of my tech journey, learning programming languages and getting familiar with web development. I'm excited to keep practising and see what I can create along the way.</p>
+          <div class="tags"><span>Creative</span><span>Friendly</span><span>Curious learner</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <p class="eyebrow">MY LEARNING JOURNEY</p><h2>Education<span>.</span></h2>
+      <div class="panel timeline"><span class="dot"></span><p class="eyebrow">FIRST YEAR · CURRENT</p><h3>Bachelor of Technology (B.Tech)</h3><p class="muted">Bosscoder School of Technology</p><p>Currently building my foundation in technology and programming.</p></div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I'M PICKING UP</p><h2>Skills<span>.</span></h2>
+      <p class="muted">These are the languages I'm learning and practising right now.</p>
+      <div class="skills">
+        <article class="panel skill"><b class="icon orange">5</b><div><h3>HTML</h3><p>Learning how to structure web pages.</p><small>Currently learning</small></div></article>
+        <article class="panel skill"><b class="icon blue">#</b><div><h3>CSS</h3><p>Exploring styles, colours and layouts.</p><small>Currently learning</small></div></article>
+        <article class="panel skill"><b class="icon yellow">Py</b><div><h3>Python</h3><p>Practising programming fundamentals.</p><small>Currently learning</small></div></article>
+        <article class="panel skill"><b class="icon red">J</b><div><h3>Java</h3><p>Getting comfortable with the language.</p><small>Currently learning</small></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">THINGS I'LL BUILD</p><h2>Projects<span>.</span></h2>
+      <div class="panel feature"><div class="feature-icon">✎</div><div><h3>My project story is just starting</h3><p class="muted">I haven't completed a project yet. I'm focusing on learning the basics first, and I hope to add my own work here soon.</p><small>MORE TO COME</small></div></div>
+    </section>
+
+    <section class="section" id="hobbies">
+      <p class="eyebrow">OUTSIDE THE CLASSROOM</p><h2>Hobbies & interests<span>.</span></h2>
+      <div class="panel feature"><div class="books" aria-hidden="true">▮▮▮</div><div><h3>Reading books</h3><p class="muted">I enjoy spending my free time reading. Books let me explore different stories, ideas and perspectives.</p></div></div>
+    </section>
+
+    <section class="section" id="achievements">
+      <p class="eyebrow">MORE MILESTONES AHEAD</p><h2>Achievements<span>.</span></h2>
+      <div class="panel feature"><div class="feature-icon">✦</div><div><h3>At the beginning of my journey</h3><p class="muted">I don't have any certificates or awards to add just yet. I'll update this space as I take part in workshops, events and new learning opportunities.</p></div></div>
+    </section>
+
+    <section class="section" id="contact">
+      <p class="eyebrow">SAY HELLO</p><h2>Contact me<span>.</span></h2>
+      <div class="contact">
+        <div class="panel"><h3>Let's connect</h3><p class="muted">Feel free to reach out by email.</p><a class="email" href="mailto:ridhiii0811@gmail.com">✉ ridhiii0811@gmail.com</a></div>
+        <form class="panel form" id="contactForm" novalidate>
+          <label for="name">Name</label><input id="name" required placeholder="Your name">
+          <label for="email">Email</label><input id="email" type="email" required placeholder="Your email">
+          <label for="message">Message</label><textarea id="message" rows="4" required placeholder="Write your message"></textarea>
+          <button class="btn" type="submit">Check message ↗</button><p id="formStatus" class="status" role="status"></p>
+          <small class="muted">This is a front-end demo. It validates the form but doesn't send messages.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home">R<span>.</span></a><p>Made by Ritisha S. · 2026</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
